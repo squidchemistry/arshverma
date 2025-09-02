@@ -116,7 +116,7 @@ const Projects = () => {
       <div className="projects-container">
         <div className="section-header">
           <h2 className="section-title">
-            <span className="title-prefix">03.</span>
+            <span className="title-prefix">04.</span>
             FEATURED PROJECTS
           </h2>
           <div className="title-line"></div>
