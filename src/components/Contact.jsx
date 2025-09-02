@@ -79,7 +79,7 @@ const Contact = () => {
       <div className="contact-container">
         <div className="section-header">
           <h2 className="section-title">
-            <span className="title-prefix">04.</span>
+            <span className="title-prefix">05.</span>
             GET IN TOUCH
           </h2>
           <div className="title-line"></div>
