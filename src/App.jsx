@@ -13,10 +13,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    // Simulate loading time for smooth entrance
-    const timer = setTimeout(() => {
-      setIsLoading(false)
-    }, 1000)
+    const timer = setTimeout(() => setIsLoading(false), 1000)
     return () => clearTimeout(timer)
   }, [])
 
@@ -40,7 +37,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-      <Analytics />
+      <Analytics /> {/* Vercel Analytics component */}
     </div>
   )
 }
